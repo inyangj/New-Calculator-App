@@ -53,8 +53,8 @@ body{
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
     padding: 20px 20px;
-    margin-top: 80px;
-    gap: 15px;
+    margin-top: 40px;
+    gap: 20px;
 }
 
 .button{
@@ -97,17 +97,28 @@ body{
 
 
 @media screen and (min-width: 500px) {
-    .output {
-        height: 3em;
-    }
-    
+.output {
+    height: 3em;
+    margin-top: 0px;
+}
+
+#btn-container {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    padding: 20px 20px;
+    margin-top: 80px;
+    gap: 10px;
+}
+
 }
 @media screen and (min-width: 1440px) {
     .output {
         height: 6em;
+        margin-top: 0px;
     }
     
     #btn-container {
         padding-top: 10px;
+        gap: 15px;
     }
 }
