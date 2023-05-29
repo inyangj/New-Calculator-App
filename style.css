@@ -98,17 +98,16 @@ body{
 
 @media screen and (min-width: 500px) {
     .output {
-        height: 4em;
+        height: 3em;
     }
     
 }
 @media screen and (min-width: 1440px) {
     .output {
-        margin-top: 30px;
         height: 6em;
     }
     
     #btn-container {
-        padding-top: 40px;
+        padding-top: 10px;
     }
 }
