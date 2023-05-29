@@ -38,7 +38,7 @@ body{
     }
 
 .output {
-    height: 3em;
+    height: 4.5em;
     text-align: right;
     display: grid;
     align-items: center;
