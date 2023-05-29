@@ -32,7 +32,11 @@ button.addEventListener('click', () => {
     if (buttonValue === 'AC') {
     output.textContent = '0';
     } else if (buttonValue === '%') {
-        output.textContent += ' * .01'
+        try {
+            output.textContent = eval(output.textContent + '/100');
+        } catch (error) {
+            output.textContent= 'Error';
+        }
     } else if (buttonValue === '÷') {
         output.textContent += '/'
     } else if (buttonValue === '×') {
