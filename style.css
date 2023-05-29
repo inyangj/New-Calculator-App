@@ -53,13 +53,13 @@ body{
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(4, 1fr);
     padding: 20px 20px;
-    margin-top: 40px;
-    gap: 10px;
+    margin-top: 80px;
+    gap: 15px;
 }
 
 .button{
     padding: 1rem;
-    border-radius: 30px;
+    border-radius: 50px;
     text-align: center;
     background-color:  #1e1e1e;
     font-weight: 700;
