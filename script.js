@@ -4,6 +4,7 @@ const clearButton = document.querySelector('.clear');
 const equalButton = document.querySelector('.equal');
 const  body = document.querySelector('.container');
 const toggle = document.getElementById('toggleDark');
+const mainBody = document.querySelector('body');
 
 
 toggle.addEventListener('click', function(){
@@ -12,6 +13,7 @@ toggle.addEventListener('click', function(){
         body.style.background = 'white';
         body.style.color = 'black';
         body.style.boxShadow = 'none'
+        mainBody.style.background = 'black'
         output.style.color = 'black'
         equalButton.style.background = 'rgb(9, 52, 30)'
         body.style.transition = '2s';
@@ -19,6 +21,7 @@ toggle.addEventListener('click', function(){
         body.style.background = 'black';
         body.style.color = 'white';
         body.style.boxShadow = '5px 5px 10px #b6acac, -5px -5px 10px #ffff';
+        mainBody.style.background = 'rgb(9, 52, 30)';
         output.style.color = 'white'
         equalButton.style.background = 'rgb(16, 215, 112)'
         body.style.transition = '2s';
